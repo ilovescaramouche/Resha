@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Resha's Electronic Portfolio </title> </head>
+<body style="background-image: url('C:/Users/user/Downloads/homepage.jpg'); 
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+             height: 100vh;
+             margin: 0;">
+             
+
+  <!-- Button container fixed to bottom -->
+<div style="position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            align-items: center;">
+     <a href="https://reshaspersonalspace.my.canva.site/" 
+     style="text-decoration: none;" 
+     target="_blank"> <!-- opens in a new tab -->
+      <button style="padding: 10px 25px; margin: 10px; border: none; border-radius: 10px;
+                     background-color: #FFB6C1; color: #5C4033; font-size: 16px; cursor: pointer; font-family: arial; font-weight: bold;">
+        get to know me!!
+      </button>
+    </a>
+    <a href="aap.html" style="text-decoration: none;">
+  <button style="padding: 10px 25px; margin: 10px; border: none; border-radius: 10px;
+                 background-color: #E37383; color: #80461B; font-size: 16px; cursor: pointer; font-family: arial; font-weight: bold;">
+    araling panlipunan!!
+  </button>
+</a>
+    <a href="schoeve.html" style="text-decoration: none;">
+      <button style="padding: 10px 25px; margin: 10px; border: none; border-radius: 10px;
+                     background-color: #FFC0CB; color: #80461B; font-size: 16px; cursor: pointer; font-family: arial; font-weight: bold;">
+        school events!!
+      </button>
+    </a>
+    <a href="tle.html" style="text-decoration: none;">
+      <button style="padding: 10px 25px; margin: 10px; border: none; border-radius: 10px;
+                     background-color: #FAA0A0; color: #4A0404; font-size: 16px; cursor: pointer; font-family: arial; font-weight: bold;">
+        tle-ict!!
+      </button>
+    </a>
+<a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1S_AuxlT-YRXd7fa8oveV1gddOMZrWzBi%2Fview%3Fusp%3Ddrivesdk&h=AT6PRZBihJjuj0SSuzI2df7xBul1XnbTrajBKeq-9a7JBXLuzZn5vCgGyiWvt2qVrqmxm9zpGRyuaKiObFcZKugLdEH0QCHrHUSRnQDWY7OF1URNzTW8oWYJwLAdNFlRICzYZEh-uUNGRrWBcUlRvg" style="text-decoration: none;">
+      <button style="padding: 10px 25px; margin: 10px; border: none; border-radius: 10px;
+                     background-color: #FAA0A0; color: #4A0404; font-size: 16px; cursor: pointer; font-family: arial; font-weight: bold;">
+        noli by fam!!
+      </button>
+    </a>
+  </div>
+
+</body>
+</html>
+

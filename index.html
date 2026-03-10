@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+background-image:url("bg.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+font-family:Arial;
+}
+
+/* popup background */
+.popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.4);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* popup box */
+.box{
+background:#fff0f5;
+padding:30px;
+border-radius:15px;
+text-align:center;
+width:360px;
+box-shadow:0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* buttons */
+button{
+padding:10px 20px;
+margin:10px;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.yes{
+background:#FFB6C1;
+}
+
+.no{
+background:#E37383;
+color:white;
+}
+</style>
+
+<script>
+
+function start(){
+document.getElementById("q1").style.display="flex";
+}
+
+function answer1(v){
+document.getElementById("q1").style.display="none";
+
+if(v){
+document.getElementById("q2").style.display="flex";
+}
+}
+
+function answer2(v){
+document.getElementById("q2").style.display="none";
+
+if(v){
+window.location.href="in_dex.html";
+}
+}
+
+</script>
+
+</head>
+
+<body onload="start()">
+
+<!-- QUESTION 1 -->
+<div id="q1" class="popup" style="display:none;">
+<div class="box">
+<h3>Are you here to see Resha's Electronic Portfolio?</h3>
+
+<button class="yes" onclick="answer1(true)">Yes</button>
+<button class="no" onclick="answer1(false)">No</button>
+
+</div>
+</div>
+
+<!-- QUESTION 2 -->
+<div id="q2" class="popup" style="display:none;">
+<div class="box">
+<h3>🦋 This action will have consequences...<br>Do you want to proceed?</h3>
+
+<button class="yes" onclick="answer2(true)">Yes</button>
+<button class="no" onclick="answer2(false)">No</button>
+
+</div>
+</div>
+
+</body>
+</html>

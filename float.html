@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3rd Qtr. Browser Outputs</title>
+
+   <style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+/* Normal image layout (side by side) */
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* First section layout (stacked) */
+.image-container-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Top image */
+.image-container-vertical img:first-child{
+    width: 690px;
+}
+
+/* Bottom image smaller */
+.image-container-vertical img:nth-child(2){
+    width: 350px;
+}
+
+.image-container img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.description{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+</style>
+</head>
+
+<body style="background-color: #FFF8BD; font-family: Comic Sans MS; color: brown;">
+
+<h1>TLE-ICT THIRD QUARTER</h1>
+<h7>----------</h7>
+
+<h2>CSS Border Style</h2> 
+<h3>Lesson 2</h3>
+
+<!-- FIRST SECTION (STACKED IMAGES) -->
+<div class="image-container-vertical">
+    <img src="borderr.jpg" alt="Photo 1">
+    <img src="border.jpg" alt="Photo 2">
+</div>
+
+<div class="description">
+    <p>
+        My knowledge about the different values of border-style property grew more as we learned about how to add borders using CSS.
+    </p>
+</div>
+
+<h2>Creating Lists</h2>
+<h3>Lesson 2</h3>
+
+<!-- NORMAL SIDE-BY-SIDE -->
+<div class="image-container">
+    <img src="onelist.jpg" alt="Photo 1">
+    <img src="twolist.jpg" alt="Photo 2">
+</div>
+
+<div class="description">
+    <p>
+        I found out about the different types of lists and how they differ on how they appear.
+    </p>
+</div>
+
+<h2>Formatting Layout with CSS</h2>
+<h3>Lesson 3</h3>
+
+<div class="image-container">
+    <img src="float.jpg" alt="Photo 1">
+    <img src="11784972-204b-4fdf-8bc7-0212407e8711.jfif" alt="Photo 2">
+</div>
+
+<div class="description">
+    <p>
+        I learned how to properly organize content in my webpage by using the float property.
+    </p>
+</div>
+
+</body>
+</html>
